@@ -1,0 +1,119 @@
+2024-03-12 17:29:45,088 : INFO :BaseTest :Fetching environment variable url
+2024-03-12 17:29:45,088 : INFO :ActionUtils :Open url ...https://trello.com/login
+2024-03-12 17:29:55,982 : INFO :BaseTest :Fetching environment variables
+2024-03-12 17:29:55,982 : INFO :BaseTest :Fetching environment variables
+2024-03-12 17:29:55,982 : INFO :ActionUtils :Finding web element to enter the text ....('id', 'user')
+2024-03-12 17:29:56,227 : INFO :ActionUtils :Finding web element to click....('id', 'login')
+2024-03-12 17:30:01,249 : INFO :BaseTest :Fetching environment variables
+2024-03-12 17:30:01,249 : INFO :ActionUtils :Finding web element to enter the text ....('xpath', "//input[@placeholder='Enter password']")
+2024-03-12 17:30:01,552 : INFO :ActionUtils :Finding web element to click....('id', 'login-submit')
+2024-03-12 17:30:01,581 : INFO :BaseTest :Fetching environment variable list
+2024-03-12 17:30:01,581 : INFO :BaseTest :Fetching environment variable cards
+2024-03-12 17:30:01,581 : INFO :BaseTest :Fetching environment variable label_name
+2024-03-12 17:30:01,581 : INFO :BaseTest :Fetching environment variable count
+2024-03-12 17:30:01,581 : INFO :Test_suite_trello :.....User Logged into Trello.....
+2024-03-12 17:30:01,583 : INFO :BaseTest :Fetching environment variable board
+2024-03-12 17:30:07,414 : INFO :ActionUtils :Finding web element to click....('xpath', "//a[@data-testid='home-team-boards-tab']")
+2024-03-12 17:30:07,482 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//h2[text()='Trello Workspace']"),)
+2024-03-12 17:30:08,133 : INFO :Test_Trello_board :..... Create a first board .....
+2024-03-12 17:30:08,133 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//button[text()='Create your first board']"),)
+2024-03-12 17:30:39,654 : INFO :Test_Trello_board :..... Create a New Board .....
+2024-03-12 17:30:44,639 : INFO :ActionUtils :Wait for element to appear...(('css selector', 'div.board-tile.mod-add'),)
+2024-03-12 17:30:44,809 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//h2[@title='Create board']"),)
+2024-03-12 17:30:45,319 : INFO :Test_Trello_board :.....New Board page is displayed.....
+2024-03-12 17:30:50,307 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//input[@data-testid='create-board-title-input']"),)
+2024-03-12 17:30:50,324 : INFO :ActionUtils :Finding web element to enter the text ....('xpath', "//input[@data-testid='create-board-title-input']")
+2024-03-12 17:30:55,628 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//button[text()='Create']"),)
+2024-03-12 17:30:55,668 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[text()='Create']")
+2024-03-12 17:31:00,682 : INFO :ActionUtils :Wait for element to appear...(('css selector', "[data-testid='board-name-display']"),)
+2024-03-12 17:31:00,698 : INFO :ActionUtils :Finding web element to get text ....('css selector', "[data-testid='board-name-display']")
+2024-03-12 17:31:00,720 : INFO :Test_suite_trello :.....Board is Created abd Verified .....
+2024-03-12 17:31:00,720 : INFO :BaseTest :Fetching environment variable list
+2024-03-12 17:31:00,720 : INFO :Test_Trello_board :['NewList_one', 'NewList_two', 'NewList_three']
+2024-03-12 17:31:00,720 : INFO :ActionUtils :Wait for element to appear...(('name', 'Enter list title…'),)
+2024-03-12 17:31:00,732 : INFO :ActionUtils :Finding web element to enter the text ....('name', 'Enter list title…')
+2024-03-12 17:31:00,891 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//button[text()='Add list']"),)
+2024-03-12 17:31:00,945 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[text()='Add list']")
+2024-03-12 17:31:03,019 : INFO :Test_Trello_board :..... waiting for card button .....
+2024-03-12 17:31:03,019 : INFO :Test_Trello_board :<selenium.webdriver.remote.webelement.WebElement (session="1d782d9ed3d7943b539848ee9acfd374", element="f.4D1B14AAAD6C8293EBBDF3A9D5FD8C2C.d.05423ED349557941FCCFD7B8E462C449.e.152")>
+2024-03-12 17:31:05,080 : INFO :BaseTest :Fetching environment variable cards
+2024-03-12 17:31:05,080 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//textarea[@placeholder='Enter a title for this card…']"),)
+2024-03-12 17:31:05,099 : INFO :ActionUtils :Finding web element to enter the text ....('xpath', "//textarea[@placeholder='Enter a title for this card…']")
+2024-03-12 17:31:05,311 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[text()='Add card']")
+2024-03-12 17:31:07,394 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//textarea[@placeholder='Enter a title for this card…']"),)
+2024-03-12 17:31:07,407 : INFO :ActionUtils :Finding web element to enter the text ....('xpath', "//textarea[@placeholder='Enter a title for this card…']")
+2024-03-12 17:31:07,546 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[text()='Add card']")
+2024-03-12 17:31:09,583 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//textarea[@placeholder='Enter a title for this card…']"),)
+2024-03-12 17:31:09,583 : INFO :ActionUtils :Finding web element to enter the text ....('xpath', "//textarea[@placeholder='Enter a title for this card…']")
+2024-03-12 17:31:09,765 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[text()='Add card']")
+2024-03-12 17:31:11,796 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//button[@data-testid='list-composer-button']"),)
+2024-03-12 17:31:11,844 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[@data-testid='list-composer-button']")
+2024-03-12 17:31:13,866 : INFO :ActionUtils :Wait for element to appear...(('name', 'Enter list title…'),)
+2024-03-12 17:31:13,881 : INFO :ActionUtils :Finding web element to enter the text ....('name', 'Enter list title…')
+2024-03-12 17:31:14,025 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//button[text()='Add list']"),)
+2024-03-12 17:31:14,068 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[text()='Add list']")
+2024-03-12 17:31:16,136 : INFO :Test_Trello_board :..... waiting for card button .....
+2024-03-12 17:31:16,136 : INFO :Test_Trello_board :<selenium.webdriver.remote.webelement.WebElement (session="1d782d9ed3d7943b539848ee9acfd374", element="f.4D1B14AAAD6C8293EBBDF3A9D5FD8C2C.d.05423ED349557941FCCFD7B8E462C449.e.180")>
+2024-03-12 17:31:18,217 : INFO :BaseTest :Fetching environment variable cards
+2024-03-12 17:31:18,217 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//textarea[@placeholder='Enter a title for this card…']"),)
+2024-03-12 17:31:18,229 : INFO :ActionUtils :Finding web element to enter the text ....('xpath', "//textarea[@placeholder='Enter a title for this card…']")
+2024-03-12 17:31:18,397 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[text()='Add card']")
+2024-03-12 17:31:20,440 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//textarea[@placeholder='Enter a title for this card…']"),)
+2024-03-12 17:31:20,448 : INFO :ActionUtils :Finding web element to enter the text ....('xpath', "//textarea[@placeholder='Enter a title for this card…']")
+2024-03-12 17:31:20,615 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[text()='Add card']")
+2024-03-12 17:31:22,653 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//textarea[@placeholder='Enter a title for this card…']"),)
+2024-03-12 17:31:22,658 : INFO :ActionUtils :Finding web element to enter the text ....('xpath', "//textarea[@placeholder='Enter a title for this card…']")
+2024-03-12 17:31:22,891 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[text()='Add card']")
+2024-03-12 17:31:24,926 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//button[@data-testid='list-composer-button']"),)
+2024-03-12 17:31:24,967 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[@data-testid='list-composer-button']")
+2024-03-12 17:31:26,982 : INFO :ActionUtils :Wait for element to appear...(('name', 'Enter list title…'),)
+2024-03-12 17:31:26,998 : INFO :ActionUtils :Finding web element to enter the text ....('name', 'Enter list title…')
+2024-03-12 17:31:27,145 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//button[text()='Add list']"),)
+2024-03-12 17:31:27,170 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[text()='Add list']")
+2024-03-12 17:31:29,207 : INFO :Test_Trello_board :..... waiting for card button .....
+2024-03-12 17:31:29,207 : INFO :Test_Trello_board :<selenium.webdriver.remote.webelement.WebElement (session="1d782d9ed3d7943b539848ee9acfd374", element="f.4D1B14AAAD6C8293EBBDF3A9D5FD8C2C.d.05423ED349557941FCCFD7B8E462C449.e.205")>
+2024-03-12 17:31:31,271 : INFO :BaseTest :Fetching environment variable cards
+2024-03-12 17:31:31,271 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//textarea[@placeholder='Enter a title for this card…']"),)
+2024-03-12 17:31:31,282 : INFO :ActionUtils :Finding web element to enter the text ....('xpath', "//textarea[@placeholder='Enter a title for this card…']")
+2024-03-12 17:31:31,447 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[text()='Add card']")
+2024-03-12 17:31:33,492 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//textarea[@placeholder='Enter a title for this card…']"),)
+2024-03-12 17:31:33,505 : INFO :ActionUtils :Finding web element to enter the text ....('xpath', "//textarea[@placeholder='Enter a title for this card…']")
+2024-03-12 17:31:33,679 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[text()='Add card']")
+2024-03-12 17:31:35,717 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//textarea[@placeholder='Enter a title for this card…']"),)
+2024-03-12 17:31:35,731 : INFO :ActionUtils :Finding web element to enter the text ....('xpath', "//textarea[@placeholder='Enter a title for this card…']")
+2024-03-12 17:31:35,903 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[text()='Add card']")
+2024-03-12 17:31:37,942 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//button[@data-testid='list-composer-button']"),)
+2024-03-12 17:31:37,977 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[@data-testid='list-composer-button']")
+2024-03-12 17:31:39,993 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//h2[@data-testid='list-name']"),)
+2024-03-12 17:31:40,011 : INFO :ActionUtils :Finding web elements... ('xpath', "//h2[@data-testid='list-name']")
+2024-03-12 17:31:40,044 : INFO :Test_Trello_board :Element NewList_onezero is not matched with NewList_one.
+2024-03-12 17:31:40,061 : INFO :Test_Trello_board :Element NewList_twozero is not matched with NewList_two.
+2024-03-12 17:31:40,072 : INFO :Test_Trello_board :Element NewList_threezero is not matched with NewList_three.
+2024-03-12 17:31:40,078 : INFO :Test_suite_trello :..... Lists and Cards are Created and Verified 
+2024-03-12 17:31:40,078 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//ol[@id='board']//li[@data-list-id]"),)
+2024-03-12 17:31:40,089 : INFO :ActionUtils :Finding web elements... ('xpath', "//ol[@id='board']//li[@data-list-id]")
+2024-03-12 17:31:40,097 : INFO :Test_Trello_board :3
+2024-03-12 17:31:40,097 : INFO :Test_Trello_board :..... Equal or More lists are in Board compared to expected.....
+2024-03-12 17:31:40,097 : INFO :Test_Trello_board :['NewList_one', 'NewList_two', 'NewList_three']
+2024-03-12 17:31:40,097 : INFO :Test_Trello_board :NewList_one
+2024-03-12 17:31:40,759 : INFO :Test_Trello_board :.....Drag and drop is completed.....
+2024-03-12 17:31:40,787 : INFO :Test_Trello_board :card_Onesixteen
+2024-03-12 17:31:40,788 : INFO :Test_Trello_board :NewList_one
+2024-03-12 17:31:40,805 : INFO :Test_Trello_board :card_Twosixteen
+2024-03-12 17:31:40,805 : INFO :Test_Trello_board :NewList_one
+2024-03-12 17:31:40,840 : INFO :Test_Trello_board :card_Onethree
+2024-03-12 17:31:40,840 : INFO :Test_Trello_board :NewList_one
+2024-03-12 17:31:40,855 : INFO :Test_Trello_board :card_Threesixteen
+2024-03-12 17:31:40,855 : INFO :Test_Trello_board :NewList_one
+2024-03-12 17:31:40,966 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//a[@title='Labels']"),)
+2024-03-12 17:31:41,483 : INFO :ActionUtils :Finding web element to click....('xpath', "//a[@title='Labels']")
+2024-03-12 17:31:41,516 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//h2[@title='Labels']"),)
+2024-03-12 17:31:42,195 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//input[@placeholder='Search labels…']"),)
+2024-03-12 17:31:42,211 : INFO :ActionUtils :Finding web element to enter the text ....('xpath', "//input[@placeholder='Search labels…']")
+2024-03-12 17:31:42,347 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//span[@data-testid='card-label']"),)
+2024-03-12 17:32:13,893 : INFO :Test_Trello_board :..... Creating New Label.....
+2024-03-12 17:32:13,893 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//button[text()='Create a new label']"),)
+2024-03-12 17:32:57,867 : INFO :ActionUtils :Finding web element to click....('xpath', "//button[text()='Create']")
+2024-03-12 17:32:57,885 : INFO :ActionUtils :Wait for element to appear...(('xpath', "//h2[@title='Create label']"),)
+2024-03-12 17:32:57,923 : INFO :ActionUtils :Finding web element to enter the text ....('xpath', "//p[text()='Title']/parent::div//input")
+2024-03-12 17:33:00,195 : INFO :ActionUtils :Wait for element to appear...(('xpath', "(//p[text()='Select a color']/parent::div//button)[1]"),)

@@ -1,0 +1,11 @@
+# Framework
+pytest
+pytest-env
+pytest-dotenv
+selenium
+pycmd
+webdriver-manager
+
+# Reporting
+allure-pytest
+pytest-html
