@@ -1,5 +1,4 @@
 import time
-
 import allure
 import pytest
 from selenium.webdriver import ActionChains
@@ -7,7 +6,6 @@ from Pages.Trello_pages import Trello_Board
 from utilities import logger_utils
 from utilities.action_utils import ActionUtils
 from utilities.base_test import BaseTest
-
 class Test_Trello_board():
     log = logger_utils.get_logger()
     def __init__(self,driver):
@@ -29,7 +27,7 @@ class Test_Trello_board():
     @allure.step("Test Step : Enter the Title of Board")
     @allure.step("Test Step : Click on Create Board")
     @allure.step("Test Step : Verify on Board Name")
-    #@pytest.mark.create.board
+    #@pytest.mark.create_board
     ## When board is given only Create_Board test case will execute
     # @pytest.skip
     ## It will prevent the Execution
@@ -83,12 +81,12 @@ class Test_Trello_board():
     @allure.step("Test Step : Click on Add")
     @allure.step("Test Step : Verify the Created List")
     # @pytest.mark.lists_and_cards
-    ## When lists_and_cards is given only Create_Board test case will execute
+    ## When lists_and_cards is given only create_lists_and_cards_in_board test case will execute
     # @pytest.skip
     ## It will prevent the Execution
     # @pytest.mark.order(2)
     ## It will execute in Order as we mention number
-    def create_lists_and_cards_in_board(self):
+    def test_create_lists_and_cards_in_board(self):
         sec = self.credentails.get_secs()
         secs_value = self.credentails.seconds_to_text(sec)
         list_values=None
@@ -142,7 +140,7 @@ class Test_Trello_board():
     @allure.description("Drag and Drop the Crad into List")
     @allure.severity(allure.severity_level.MINOR)
     # @pytest.mark.drag_drop
-    ## When drag_drop is given only Create_Board test case will execute
+    ## When drag_drop is given only test_drag_and_drop_add_label test case will execute
     # @pytest.skip
     ## It will prevent the Execution
     # @pytest.mark.order(3)
